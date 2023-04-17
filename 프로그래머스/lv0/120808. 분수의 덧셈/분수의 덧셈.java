@@ -8,12 +8,10 @@ class Solution {
             if(numerator % i ==0 && denominator % i ==0 ) {
                 numerator = numerator/i;
                 denominator = denominator/i;
-                break;
             }
         }
+       
         int[] answer = { numerator, denominator };
-        
-        
         return answer;
     }
 }
